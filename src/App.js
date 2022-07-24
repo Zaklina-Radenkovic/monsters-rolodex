@@ -46,7 +46,7 @@ class App extends Component {
       return monster.name.toLocaleLowerCase().includes(searchField);
     });
 
-    console.log("render from App");
+    // console.log("render from App");
     return (
       <div className="App">
         <h1 className="app-title">Monsters Rolodex</h1>
